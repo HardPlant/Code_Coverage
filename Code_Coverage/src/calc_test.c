@@ -36,14 +36,12 @@ void test_calc_init() {
 		{"test_calc_div_1", test_calc_div_1},
 		{"test_calc_div_2", test_calc_div_2},
 		{"test_calc_save", test_calc_save},
-		{"test_calc_pow", test_calc_pow},
-		{"test_calc_mod", test_calc_mod},
 		{"test_calc_is_over_42_1", test_calc_is_over_42_1},
 		CU_TEST_INFO_NULL,
 	};
 
 	CU_SuiteInfo suites[] = {
-		{ "[CALC 테스트]", test_calc_startup, test_calc_cleanup, test_calc},
+		{ "[CALC Test]", test_calc_startup, test_calc_cleanup, test_calc},
 		CU_SUITE_INFO_NULL,
 	};
 
@@ -68,12 +66,12 @@ void smoketest_calc() {
 
 	if (CALC_div(calc, 2) == 4) {
 
-		printf("성공");
+		printf("success");
 		success++;
 
 	} else {
 
-		printf("취소");
+		printf("fail");
 		fail++;
 	}
 
