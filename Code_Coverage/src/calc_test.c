@@ -43,7 +43,7 @@ void test_calc_init() {
 	};
 
 	CU_SuiteInfo suites[] = {
-		{ "[CALC 抛胶飘]", test_calc_startup, test_calc_cleanup, test_calc},
+		{ "[CALC 韰岇姢韸竇", test_calc_startup, test_calc_cleanup, test_calc},
 		CU_SUITE_INFO_NULL,
 	};
 
@@ -68,12 +68,12 @@ void smoketest_calc() {
 
 	if (CALC_div(calc, 2) == 4) {
 
-		printf("己傍");
+		printf("靹标车");
 		success++;
 
 	} else {
 
-		printf("己傍");
+		printf("旆唽");
 		fail++;
 	}
 

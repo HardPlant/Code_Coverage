@@ -29,7 +29,7 @@ int CALC_div(CALC* calc, int num) {
 	if (num != 0) {
 		calc->current_status /= num;
 	} else {
-		printf("[CALC_div] numÀÌ 0ÀÓ, ½ÇÇà Ãë¼Ò\n");
+		printf("[CALC_div] numì´ 0ì„, ì‹¤í–‰ ì·¨ì†Œ\n");
 	}
 
 	return calc->current_status;
