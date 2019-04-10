@@ -29,7 +29,7 @@ int CALC_div(CALC* calc, int num) {
 	if (num != 0) {
 		calc->current_status /= num;
 	} else {
-		printf("[CALC_div] num이 0임, 실행 취소\n");
+		printf("[CALC_div] Div 0 Error\n");
 	}
 
 	return calc->current_status;
