@@ -36,7 +36,9 @@ void test_calc_init() {
 		{"test_calc_div_1", test_calc_div_1},
 		{"test_calc_div_2", test_calc_div_2},
 		{"test_calc_save", test_calc_save},
-
+//		{"test_calc_is_over_42_1", test_calc_is_over_42_1},
+//		{"test_calc_pow", test_calc_pow},
+//		{"test_calc_mod", test_calc_mod},
 		CU_TEST_INFO_NULL,
 	};
 

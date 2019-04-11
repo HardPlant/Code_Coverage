@@ -20,7 +20,7 @@ int main() {
 
 	register_tests();
 
-	CU_console_run_tests();
+	CU_basic_run_tests();
 
 	CU_cleanup_registry();
 
